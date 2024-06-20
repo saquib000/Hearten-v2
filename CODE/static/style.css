@@ -1,0 +1,15 @@
+.test {
+    background-color: grey;
+}
+
+#login {
+    justify-content: center;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.fade-in.active {
+    opacity: 1;
+}
